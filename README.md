@@ -1,32 +1,45 @@
-# Nikola: Tesla Fleet Management Assistant
+# Nikola - Tesla Fleet Management GPT
 
-## Introduction
-Nikola is an AI-powered assistant designed to help users manage their Tesla fleet efficiently. It provides detailed information and control over individual Tesla vehicles, enhancing the fleet management experience.
+Welcome to Nikola, a specialized GPT designed to assist users in efficiently managing their Tesla fleet. Focused on individual vehicles, Nikola offers a user-friendly interface for a wide range of remote management tasks.
+
+Visit [Nikola.chat](https://nikola.chat) today to start chatting!
 
 ## Features
-Nikola offers a wide range of functionalities to streamline the management of your Tesla fleet:
 
-### Vehicle Information and Management
-- **List All Vehicles**: View all the vehicles in your fleet.
-- **Get Specific Vehicle Details**: Retrieve detailed information about any vehicle in the fleet, including VIN, battery state, and more.
+Nikola enables users to:
 
-### Remote Vehicle Control
-- **Wake Up Vehicle**: Remotely wake up a vehicle from sleep mode.
-- **Vehicle Lock/Unlock**: Remotely lock or unlock the vehicle doors.
-- **Climate Preconditioning**: Precondition the vehicle's climate to a comfortable temperature before driving.
-- **Charging Stats**: Check the current charging status and battery level.
+- **Retrieve User Information**: Access details about the authenticated Tesla account user.
+- **List Vehicles**: View all Tesla vehicles associated with the account.
+- **Get Vehicle Options**: Obtain vehicle specifications based on the VIN.
+- **Get Vehicle Information**: Receive comprehensive information on a selected vehicle.
+- **Get Vehicle Drivers**: List authorized drivers for a specific vehicle.
+- **Get Vehicle Data**: Access detailed data of a vehicle.
+- **Wake Up Vehicle**: Remotely wake up vehicles from sleep mode.
+- **Get Warranty Details**: Check warranty information for vehicles.
+- **Find Nearby Charging Sites**: Locate Tesla Superchargers and Destination Chargers.
+- **Get Charging History**: View the vehicle's charging history.
+- **Get Recent Alerts**: Retrieve recent alerts for a vehicle.
 
-### Location and Charging
-- **Locate Nearby Chargers**: Find the nearest Tesla charging stations.
-- **Vehicle Location**: Obtain the current location of your Tesla vehicle.
+### Vehicle Commands
 
-### Security and Access
-- **Authorized Drivers**: Get a list of drivers authorized to operate a specific vehicle.
+- **Actuate Trunk**: Open/close the trunk.
+- **Auto Conditioning**: Start/stop the climate control system.
+- **Charge Control**: Start/stop vehicle charging.
+- **Door Lock/Unlock**: Remotely lock or unlock the vehicle.
+- **Flash Lights & Honk Horn**: Remotely flash lights or sound the horn.
+- **Navigation Request**: Send navigation destinations to the vehicle.
 
-### Warranty Information
-- **Vehicle Warranty Details**: Access warranty information for each vehicle in the fleet.
+### Region Coverage
+
+- North America
+- Asia-Pacific (excluding China)
+
+## Installation
+
+Head on over to [Nikola](https://nikola.chat) and start chatting!
 
 ## Usage
+
 To use Nikola, simply provide a command or ask a question regarding your Tesla fleet. Nikola will respond with accurate, up-to-date information or perform the requested action on a specific vehicle. Ensure you have the necessary permissions and access to the fleet management system.
 
 ### Example Commands
@@ -37,10 +50,19 @@ To use Nikola, simply provide a command or ask a question regarding your Tesla f
 - "Where is the nearest charger for [Vehicle Name]?"
 - "Who are the authorized drivers of [Vehicle Name]?"
 
-## Security and Privacy
-Nikola prioritizes security and privacy:
+## Security
+
 - You are Authenticating directly with Tesla via their official [Fleet API](https://developer.tesla.com/docs/fleet-api).
 - It requires user confirmation for remote actions like starting a vehicle.
 
-## Support
-For support or additional information, contact help@nikola.chat.
+## Future
+
+Currently, I'm looking at adding in more vehicle commands as well as management for your Tesla solar devices.
+
+## Feedback and Suggestions
+
+For feedback or feature suggestions, please send an email to [idea@nikola.chat](mailto:idea@nikola.chat).
+
+---
+
+This project is not affiliated with or endorsed by Tesla, Inc. Tesla is a trademark of Tesla, Inc.
