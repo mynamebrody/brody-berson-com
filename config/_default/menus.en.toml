@@ -1,0 +1,20 @@
+############# English navigation ##############
+
+# main menu
+# [[main]]
+# name = "GPT"
+# url = "https://chat.openai.com/g/g-PfJYsBIj7-nikola"
+# weight = 1
+
+
+
+# footer menu
+[[footer]]
+name = "GPT"
+url = "https://chat.openai.com/g/g-PfJYsBIj7-nikola"
+weight = 1
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
