@@ -28,6 +28,8 @@ Nikola enables users to:
 - **Door Lock/Unlock**: Remotely lock or unlock the vehicle.
 - **Flash Lights & Honk Horn**: Remotely flash lights or sound the horn.
 - **Navigation Request**: Send navigation destinations to the vehicle.
+- **Set Sentry Mode**: Enable/Disable of sentry mode.
+- **Set Climate Keep Mode**: Allows you to enable Climate Keep, Dog Mode, Camper Mode, etc.
 
 ### Region Coverage
 
